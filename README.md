@@ -1,13 +1,13 @@
 Original Project: https://github.com/mitre/HTTP-Proxy-Servlet
 
-### Smiley's HTTP Proxy Servlet Custom Application
+### Smiley's HTTP Proxy Servlet Custom - Server Application -
 
 * 'Smiley's HTTP Proxy Servlet' 기반 서버 응용 프로그램
 
 * 커스텀 내용
-   - URI Prefix 화 매핑하는 다수 Host의 동적 분기 처리
+   - URI Prefix와 매핑하는 다수 Host의 동적 분기 처리
    - 환경 설정 정보를 properties 파일(http-proxy.properties)에서 관리
-   - Spring Boot 1.3.8.RELEASE 적용
+   - Spring Boot 1.3.8.RELEASE 적용하여 단일 서버 응용 프로그램으로 활용
 
 ### Execution
 
@@ -24,7 +24,7 @@ mvn spring-boot:run
 ```shell
 mvn package
 (실행)
-java -jar http-rest-proxy-1.0.0.jar
+java -jar target/http-rest-proxy-1.0.0.jar
 ```
 
 ### Configuration
